@@ -1,11 +1,12 @@
 [tool.poetry]
 name = "Background_wallpaper_updater"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "A python script that will fetch random picture from Unsplash and  will set it as Windows 10 background"
+authors = ["alekslario"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+requests = "^2.26.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

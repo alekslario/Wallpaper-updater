@@ -1,0 +1,1 @@
+A python script that will fetch random picture from Unsplash and  will set it as Windows 10 background
