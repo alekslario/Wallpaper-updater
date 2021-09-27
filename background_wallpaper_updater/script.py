@@ -26,7 +26,7 @@ def getUrl():
 
 # set background
 def setBackground():
-    path = os.environ.get("WALLPAPER_PATH")
+    path = r"YOU_WALLPAPER_PATH_HERE"
     ctypes.windll.user32.SystemParametersInfoW(20, 0, path, 3)
 
 
